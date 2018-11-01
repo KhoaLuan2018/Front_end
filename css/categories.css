@@ -1,10 +1,39 @@
+.list-categories {
+    padding: 0 15px;
+}
+
+.list-categories__title {
+    background: #159894;
+    border-radius: 4px;
+    padding: 11px 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.list-categories__title i.fas.fa-bars {
+    margin-right: 12px;
+}
+
+.list-categories__title span {
+    padding: 0 5px;
+}
+.list-categories__title a {
+    color: #fff;
+    transition: all 0.4s linear;
+}
+
+.list-categories__title a:hover {
+    text-decoration: underline;
+}
+
 
 
 .list-categories__box {
     padding: 15px 0;
     border-bottom: 1px dotted;
 }
-
+.list-categories__box:last-child {
+    border-bottom: transparent;
+}
 .list-categories__box:first-child {
     padding-top: 0;
 }
@@ -21,7 +50,7 @@
 }
 
 .information-title a {
-    color: red;
+    color: #0c4075;
     text-decoration: none;
 }
 

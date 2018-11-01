@@ -91,7 +91,16 @@ closeForm.onclick = function()
 	logForm.classList.remove('displayForm');
 }
 
+
+
+
 $(document).ready(function(){
+	var width = $(window).width();
+	if(width <= 1000)
+	{
+		console.log('oke');
+	}
+	console.log(width);
 	$('.left-menu li').click(function(){
 		$(this).find('.left-menu__sub').slideToggle();
 		return false;

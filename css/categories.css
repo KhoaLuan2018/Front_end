@@ -59,6 +59,41 @@
     color: #159894;
 }
 
+
+.list-categories__btn {
+    margin-top: 15px;
+}
+
+.list-categories__btn button {
+    padding: 5px 18px;
+    background: #0c4075;
+    /* color: #fff; */
+    border: 1px solid #0c4075;
+    border-radius: 4px;
+}
+
+.list-categories__btn button a {
+    color: #fff;
+}
+
+.list-categories__btn button:last-child {
+    background: #47a247;
+    border: 1px solid #6f9e6f;
+}
+
+.list-categories__btn button:hover {
+    background: #2470bd;
+}
+
+.list-categories__btn button:last-child:hover {
+    background: #77b777;
+}
+
+.list-categories__box .information-date small {
+    margin-right: 5px;
+}
+
+
 @media only screen and (max-width:476px)
 {
 	.list-categories {

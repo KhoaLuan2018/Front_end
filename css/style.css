@@ -77,6 +77,7 @@
 		
 		nav.nav ul li {
 		    position: relative;
+		        z-index: 10;
 		}
 		nav.nav ul li:hover ul.submenu {
 			display: block;

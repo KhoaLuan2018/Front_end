@@ -1,0 +1,52 @@
+.news {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news .news-title h1 {
+    color: #0c4075;
+}
+
+.news-infor {
+    margin: 12px 0;
+}
+
+.news-infor span {
+    font-size: 14px;
+    margin-right: 15px;
+    color: #0c4075;
+}
+
+.news-infor span a {
+    color: #333;
+}
+
+.news-infor span a:hover {
+    text-decoration: underline;
+}
+
+.news-infor span:nth-child(2) {
+    color: #333;
+}
+
+.news-infor span:nth-child(2) i.fas.fa-user {
+    color: #0c4075;
+}
+
+.news-tomtat {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.news-content p {
+    margin: 15px;
+    line-height: 25px;
+}
+
+.news-infor span:nth-child(2) i.fas.fa-clock {
+    color: #0c4075;
+}

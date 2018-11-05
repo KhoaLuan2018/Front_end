@@ -47,10 +47,19 @@ var nav = document.querySelector('.nav');
 var menu = document.querySelector('.bar-menu');
 var tagI = document.querySelector('.left-menu .danhmuc i.fas.fa-angle-down');
 var tagUl = document.querySelector('.left-menu ul');
-var menuSub = document.querySelector('left-menu__sub');
+var menuSub = document.querySelector('.left-menu__sub');
+var date = document.querySelector('.date');
 var tagLi = document.querySelectorAll('.left-menu li');
 // console.log(tagLi);
 // console.log(danhmuc);
+var dateNow = new Date();
+var year = dateNow.getFullYear();
+var month = (dateNow.getMonth() + 1);
+month = (month < 10)? '0' + month : month;
+var day = dateNow.getDate();
+day = (day < 10)? '0' + day : day;
+var now = year + '-' + month + '-' + day;
+date.value = now;
 danhmuc.onclick = function()
 {
 	tagI.classList.toggle('rota');

@@ -50,3 +50,133 @@
 .news-infor span:nth-child(2) i.fas.fa-clock {
     color: #0c4075;
 }
+
+
+
+
+/* ======================================= COMMENT ======================================= */
+
+.comment-view {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.comment {
+    background: #e2e2e2;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.comment-input,.comment-rep {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+.comment-rep {
+    display: none;
+}
+.comment-rep.hienthi {
+    display: flex;
+}
+.comment-input .cmt-image img {
+        width: 80px;
+    height: 80px;
+}
+.comment-input textarea,.comment-rep textarea{
+    flex: 0 0 calc(80% - 1rem);
+    padding-left: 13px;
+    padding-top: 13px;
+    outline: none;
+}
+
+.comment-input .cmt-image {
+    flex: 0 0 calc(20% - 1rem);
+}
+
+.comment-input__btn {
+    flex: 0 0 calc(100%);
+    text-align: right;
+}
+
+.comment-input__btn button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.comment-view .view {
+    font-weight: bold;
+}
+
+.comment-log a {
+    font-size: 13px;
+    color: #333;
+}
+
+.comment-log span {
+    margin: 0 15px;
+}
+
+.comment-log a:hover {
+    text-decoration: underline;
+}
+
+
+
+.comment-content img {
+    width: 80px;
+    height: 80px;
+}
+
+.comment-content {
+    padding: 15px;
+    background: #fff;
+    margin-top: 10px;
+}
+.user-cmt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user-cmt .cmt-image {
+    flex: 0 0 calc(20% - 1rem);
+}
+
+.cmt-information {
+    flex: 0 0 calc(80% - 1rem);
+}
+
+.cmt-information__name {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cmt-information__name small {
+    font-weight: 100;
+    margin-left: 10px;
+    color: #929090;
+}
+
+.btn-rep {
+    text-align: right;
+    margin: 5px 16px 5px 0;
+    font-size: 14px;
+    /* color: blue; */
+}
+
+.btn-rep a {
+    color: #4265ca;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-rep a:hover {
+    text-decoration: underline;
+}

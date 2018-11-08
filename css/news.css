@@ -56,127 +56,124 @@
 
 /* ======================================= COMMENT ======================================= */
 
-.comment-view {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    flex-wrap: wrap;
-}
-
 .comment {
-    background: #e2e2e2;
-    /* padding: 20px; */
-    box-sizing: border-box;
-    padding: 15px;
-    border-radius: 4px;
-}
-
-.comment-input,.comment-rep {
-    background: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    justify-content: space-between;
-}
-.comment-rep {
-    display: none;
-}
-.comment-rep.hienthi {
-    display: flex;
-}
-.comment-input .cmt-image img {
-        width: 80px;
-    height: 80px;
-}
-.comment-input textarea,.comment-rep textarea{
-    flex: 0 0 calc(80% - 1rem);
-    padding-left: 13px;
-    padding-top: 13px;
-    outline: none;
-}
-
-.comment-input .cmt-image {
-    flex: 0 0 calc(20% - 1rem);
-}
-
-.comment-input__btn {
-    flex: 0 0 calc(100%);
-    text-align: right;
-}
-
-.comment-input__btn button {
-    margin-top: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.comment-view .view {
-    font-weight: bold;
-}
-
-.comment-log a {
-    font-size: 13px;
-    color: #333;
-}
-
-.comment-log span {
-    margin: 0 15px;
-}
-
-.comment-log a:hover {
-    text-decoration: underline;
+    background: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 1px #ccc inset;
 }
 
 
-
-.comment-content img {
-    width: 80px;
-    height: 80px;
-}
-
-.comment-content {
-    padding: 15px;
-    background: #fff;
-    margin-top: 10px;
-}
-.user-cmt {
+.cmt-title {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.user-cmt .cmt-image {
-    flex: 0 0 calc(20% - 1rem);
-}
-
-.cmt-information {
-    flex: 0 0 calc(80% - 1rem);
-}
-
-.cmt-information__name {
     margin-bottom: 10px;
-    font-weight: bold;
+    align-items: center;
 }
 
-.cmt-information__name small {
-    font-weight: 100;
-    margin-left: 10px;
-    color: #929090;
+.cmt-title strong {
+    font-size: 20px;
 }
 
-.btn-rep {
-    text-align: right;
-    margin: 5px 16px 5px 0;
+.cmt-title small {
     font-size: 14px;
     /* color: blue; */
 }
 
-.btn-rep a {
-    color: #4265ca;
-    letter-spacing: 1px;
+.cmt-title small a {
+    color: #0072ff;
+}
+
+.cmt-title small a:hover {
+    text-decoration: underline;
+}
+
+
+
+.cmt-add .btn {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.cmt-add .btn button {
+    padding: 4px 10px;
     cursor: pointer;
 }
 
-.btn-rep a:hover {
+.cmt-add__input {
+    display: flex;
+}
+
+.comment img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.cmt-add textarea {
+    width: 100%;
+    outline: none;
+    padding: 15px;
+}
+.cmt-user__text .text {
+    color: #999;
+}
+
+.cmt-user {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.cmt-content {
+        padding: 15px;
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 1px 1px #e8e6e6 inset;
+}
+
+.cmt-user__text .name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.cmt-user__text .name small {
+    font-weight: 100;
+    margin-left: 12px;
+    font-style: italic;
+    color: #333;
+}
+
+
+
+
+.rep-user .cmt-user,.rep-input .cmt-add {
+    width: 87%;
+    margin-left: 13%;
+}
+
+
+
+.rep a {
+    color: #306bc3;
+    cursor: pointer;
+}
+
+.rep {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.rep a:hover {
     text-decoration: underline;
+}
+
+
+
+
+.user-content__rep {
+    display: none;
+}
+.user-content__rep.hienthi {
+    display: block;
 }

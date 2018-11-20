@@ -177,3 +177,14 @@
 .user-content__rep.hienthi {
     display: block;
 }
+
+button.remove {
+    padding: 2px 16px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: #fff;
+    background: #159894;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #b3b1b1;
+}

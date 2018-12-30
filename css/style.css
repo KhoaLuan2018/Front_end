@@ -470,6 +470,9 @@ footer.footer .footer-left li a i {
 
 @media only screen and (max-width:1000px)
 {
+	.content {
+	    flex: 0 0 calc(80% - 1rem);
+	}
 	.container nav.nav.stop {
 	    position: absolute;
 	    width: 100%;
@@ -751,6 +754,7 @@ ul.left-menu__sub li {
 /* DÃ nh cho mÃ¡y tÃ­nh báº£ng chiá»u dá»c */
 @media only screen and (max-width:650px)
 {
+
 	.left-truycap {
     margin-bottom: 20px;
 }
@@ -834,6 +838,23 @@ ul.left-menu__sub li {
 
 @media all and (max-width:487px)
 {
+	.list-search {
+	    display: block!important;
+	    text-align: center;
+	}
+
+	.list-search form {
+	    margin-bottom: 5px;
+	}
+
+	.list-search form select {
+	    width: 97%;
+	}
+	.table {
+	    width: 300px;
+	    overflow-x: auto;
+	    margin: auto;
+	}
 	.contact-title {
 	    border-radius: 50%;
 	    padding: 14px 18px;

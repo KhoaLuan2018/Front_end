@@ -12,9 +12,10 @@
 }
 
 .list table td,th {
-    padding: 15px 0;
+    padding: 15px;
     border-bottom: 1px solid #dedede;
     /* box-shadow: 1px 1px 1px #bdbcbc inset; */
+    font-size: 15px;
 }
 
 .list table tr:nth-child(even) td {
@@ -24,10 +25,12 @@
 .list-search {
     display: flex;
     margin-bottom: 15px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 form {
-    width: calc(50% - 1rem);
+    /* width: calc(50% - 1rem); */
 }
 
 .list-search input[type="text"] {
